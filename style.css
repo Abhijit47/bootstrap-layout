@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    gap: 1.5rem;
+}
+
+.heading {
+    text-align: center;
+}
+
+
+.list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.justify-content-center {
+    /* justify-content: space-evenly; */
+    gap: 1.5rem;
+}
